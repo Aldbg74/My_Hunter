@@ -3,6 +3,10 @@ My_Hunter is the first graphical project of Epitech.
 
 <H1>🎯 GOALS 🎯</H1>
 The objective of the project was to recreate a Duck Hunt game using C and CSFML/SFML <br>
+<br>
+
+> [!IMPORTANT]
+> Project dosen't respect Epitech Coding Style rules.
 
 <H1>🤖 MOULINETTE RESULT 🤖</H1>
 As the people at epitech know, the project is corrected by the mill, of which here are the results : <br>
