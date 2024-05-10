@@ -18,6 +18,15 @@ As the people at epitech know, the project is corrected by the mill, of which he
 BUILD ERROR (got an error on the makefile) <br>
 <br>
 
+<H1>🎮 How To Launch ? 🎮</H1>
+
+```
+git clone git@github.com:Aldbg74/My_Hunter.git
+cd My_Hunter
+Make
+./My_Hunter
+```
+
 > [!CAUTION]  
 > My friends, I absolutely do not encourage you to copy this repository, I remind you that any cheat will be detected by our friend the "moulitriche" and that you therefore risk a -42. <br>
 Don't risk a -42 for nothing, give your all to have a project you're proud of. However you can look at this repo to get an idea of ​​the work to be done. <br>
