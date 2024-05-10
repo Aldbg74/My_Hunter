@@ -14,7 +14,7 @@ The objective of the project was to recreate a Duck Hunt game using C and CSFML/
 - [ ] Launch Menu
 
 <H1>🤖 MOULINETTE RESULT 🤖</H1>
-As the people at epitech know, the project is corrected by the mill, of which here are the results : <br>
+As the people at epitech know, the project is corrected by the Moulinette, of which here are the results : <br>
 BUILD ERROR (got an error on the makefile) <br>
 <br>
 
