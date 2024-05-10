@@ -8,6 +8,11 @@ The objective of the project was to recreate a Duck Hunt game using C and CSFML/
 > [!IMPORTANT]
 > Project dosen't respect Epitech Coding Style rules.
 
+- [x] Project can be launch
+- [x] Can fire on a sprite
+- [ ] Sprite Spawn at a random point when killed
+- [ ] Launch Menu
+
 <H1>🤖 MOULINETTE RESULT 🤖</H1>
 As the people at epitech know, the project is corrected by the mill, of which here are the results : <br>
 BUILD ERROR (got an error on the makefile) <br>
