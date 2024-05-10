@@ -1,29 +1,34 @@
 ##
-## EPITECH PROJECT, 2023
-## B-MUL-100-LYN-1-1-myhunter-alexis.drago-beltran
-## File description:
-## Makefile
+## Gertrude v.1
+##
+## This Makefile was generated using Gertrude
+##
+## (Gertrude is an open-source Makefile creation tool)
 ##
 
-SRC =  src/define_map.c \
-		src/define_plane.c \
+SRC	=	$(wildcard *.c)	\
 
-OBJ = $(SRC:.c=.o)
+OBJ	=	$(SRC:.c=.o)
 
-NAME = my_radar
+CC	=	gcc
 
-all:    $(NAME)
+NAME	=	My_Hunter
 
-$(NAME):    $(OBJ)
-	make -C lib/my/ all
-	gcc $(SRC) -o $(NAME) -L./lib/my -lmy -g3 -lcsfml-graphics
-	rm -rf *.o
+CFLAGS	+=	-L./lib/my -lmy -g3 -lcsfml-graphics
 
+all:	build	clean
+
+build:	$(OBJ)	gertrude
+	$(CC) -o $(NAME) $(OBJ) $(CFLAGS)
 clean:
-	make -C lib/my/ clean
+	rm -f vgcore.* $(OBJ) *.gch
 
-fclean:    clean
-	make -C ./lib/my fclean
+fclean:	clean
 	rm -f $(NAME)
 
-re:    fclean all
+re:	fclean	all
+
+gertrude:
+	@echo -e "\n\n\033[3mGertrude-CLI - Makefile creation tool\033[0m\n"
+
+.PHONY:	all	build	clean	fclean	re

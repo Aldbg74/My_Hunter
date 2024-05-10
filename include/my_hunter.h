@@ -1,14 +1,14 @@
 /*
-** EPITECH PROJECT, 2024
-** B-MUL-100-LYN-1-1-myradar-alexis.drago-beltran
+** EPITECH PROJECT, 2023
+** B-MUL-100-LYN-1-1-myhunter-alexis.drago-beltran
 ** File description:
-** my_radar.h
+** my_hunter.h
 */
 
-#ifndef MY_RADAR_
-    #define MY_RADAR_
+#ifndef MY_HUNTER_H_
+#define MY_HUNTER_H_
 
-    #include <SFML/Graphics.h>
+#include <SFML/Graphics.h>
 
 typedef struct game_s {
     sfRenderWindow *window;
